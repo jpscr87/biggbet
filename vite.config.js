@@ -18,8 +18,10 @@ export default defineConfig({
         i18n(),
     ],
     resolve: {
-        alias: {
-
-        }
+        alias: {}
+    },
+    preview: {
+        port: process.env.PORT || 4173,
+        host: true
     }
 });
